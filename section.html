@@ -596,17 +596,16 @@ h3.pub-title,
 /* max widths at 1200px */
 
 @media(min-width: 1200px){
-    .layout-pubs-component,
-    .layout-banner-component{
-        position: relative;
-        margin: 0 auto;
-        width: 1200px;
-        max-width: 1200px;
-    }
+  .layout-pubs-component{
+    position: relative;
+    width: 1200px !important;
+    margin: 0 auto;
+  }
 
-    .layout-text-component{
-
-    }
+  .pub-preview-component.large-preview .banner-image,
+  .pub-preview-component.medium-preview .banner-image{
+    height: 400px !important;
+  }
 }
 
 
